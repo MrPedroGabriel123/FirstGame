@@ -14,14 +14,7 @@
                 var UserFirstChoice = Console.ReadLine();
                 
 
-                if (string.IsNullOrEmpty(UserFirstChoice))
-                {
-                    Console.WriteLine("Noob thats nothing mate...");
-                    Console.ReadLine();
-                    continue;
-
-                }
-                if (UserFirstChoice == string.Empty)
+               if (UserFirstChoice == string.Empty)
                 {
                     Console.WriteLine("You need to choose something");
                     Console.ReadLine();
@@ -32,11 +25,22 @@
                 {
                     Console.WriteLine("Choose one of the 3 options bellow");
                     Console.ReadLine();
+                    continue;
                 }
                 if (UserFirstChoice == "Start new game")
                 {
                     Console.WriteLine("Your game will start soon...");
                     Console.ReadLine();
+
+                    Console.WriteLine("??? :Oh, you woke up, what is your name?");
+                    var name = Console.ReadLine();
+                    Console.WriteLine($"Jeff:Hi {name}, my name is Jeff and you are in our bunker right now");
+                    Console.ReadLine();
+                    Console.WriteLine($" {name} : What happend here? Why are we in a bunker?");
+                    Console.ReadLine();
+                    Console.WriteLine("Jeff: Russia is attacking us ");
+                    Console.ReadLine();
+
                 }
                 if (UserFirstChoice == "Credits")
                 {
