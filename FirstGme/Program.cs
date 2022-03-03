@@ -40,7 +40,8 @@
                     Console.ReadLine();
                     Console.WriteLine("Jeff: Russia is attacking us ");
                     Console.ReadLine();
-
+                    return;
+                    
                 }
                 if (UserFirstChoice == "Credits")
                 {
