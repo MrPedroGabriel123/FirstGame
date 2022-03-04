@@ -1,6 +1,6 @@
-﻿namespace Game
+﻿namespace FirstGme
 {
-    internal static class game
+    internal static class Game
     {
         public static void Main()
         {
@@ -11,23 +11,23 @@
                 Console.WriteLine("Start new game");
                 Console.WriteLine("Credits");
                 Console.WriteLine("Exit");
-                var UserFirstChoice = Console.ReadLine();
+                var userFirstChoice = Console.ReadLine();
                 
 
-               if (UserFirstChoice == string.Empty)
+               if (userFirstChoice == string.Empty)
                 {
                     Console.WriteLine("You need to choose something");
                     Console.ReadLine();
                     continue;
                 }
 
-                if (UserFirstChoice == "Wecolme")
+                if (userFirstChoice == "Wecolme")
                 {
                     Console.WriteLine("Choose one of the 3 options bellow");
                     Console.ReadLine();
                     continue;
                 }
-                if (UserFirstChoice == "Start new game")
+                if (userFirstChoice == "Start new game")
                 {
                     Console.WriteLine("Your game will start soon...");
                     Console.ReadLine();
@@ -36,21 +36,24 @@
                     var name = Console.ReadLine();
                     Console.WriteLine($"Jeff:Hi {name}, my name is Jeff and you are in our bunker right now");
                     Console.ReadLine();
-                    Console.WriteLine($" {name} : What happend here? Why are we in a bunker?");
+                    Console.WriteLine($" {name}: What happend here? Why are we in a bunker?");
                     Console.ReadLine();
                     Console.WriteLine("Jeff: Russia is attacking us ");
                     Console.ReadLine();
+                    Console.WriteLine($" {name}: But why? Why are they attacking us? That doesnt make any sense!");
+                    Console.ReadLine();
+                    Console.WriteLine($"Jeff: We dont know yet, we are still finding more people to create a group agaisnt russia");
                     return;
                     
                 }
-                if (UserFirstChoice == "Credits")
+                if (userFirstChoice == "Credits")
                 {
                     Console.WriteLine("Made by MrPedroGabriel123");
                     Console.WriteLine("MrAmos and Thalos helped my when I was stuck with any type of code");
                     Console.ReadLine();
                     continue;
                 }
-                if (UserFirstChoice == "Exit")
+                if (userFirstChoice == "Exit")
                 {
                     System.Environment.Exit(0);
                 }
