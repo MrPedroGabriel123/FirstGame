@@ -36,13 +36,14 @@
                         Console.WriteLine(
                             $"Jeff: We dont know yet, we are still finding more people to create a group agaisnt russia");
                         break;
+                        
                     case "Credits":
                         Console.WriteLine("Made by MrPedroGabriel123");
                         Console.WriteLine("MrAmos and Thalos helped my when I was stuck with any type of code");
                         Console.ReadLine();
                         break;
                     case "Exit":
-                        System.Environment.Exit(0);
+                        Environment.Exit(0);
                         break;
                 }
 
