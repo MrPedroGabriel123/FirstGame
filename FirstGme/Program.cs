@@ -27,11 +27,11 @@
                         var name = Console.ReadLine();
                         Console.WriteLine($"Jeff:Hi {name}, my name is Jeff and you are in our bunker right now");
                         Console.ReadLine();
-                        Console.WriteLine($" {name}: What happend here? Why are we in a bunker?");
+                        Console.WriteLine($"{name}: What happend here? Why are we in a bunker?");
                         Console.ReadLine();
                         Console.WriteLine("Jeff: Russia is attacking us ");
                         Console.ReadLine();
-                        Console.WriteLine($" {name}: But why? Why are they attacking us? That doesnt make any sense!");
+                        Console.WriteLine($"{name}: But why? Why are they attacking us? That doesnt make any sense!");
                         Console.ReadLine();
                         Console.WriteLine(
                             $"Jeff: We dont know yet, we are still finding more people to create a group agaisnt russia");
