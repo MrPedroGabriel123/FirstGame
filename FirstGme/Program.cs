@@ -38,7 +38,7 @@
                         Console.WriteLine("yes");
                         Console.WriteLine("no");
                         Console.ReadLine();
-                        var userfirstchoice = Console.Read();//idk whats going on here
+                        var userfirstchoice = Console.ReadLine();//idk whats going on here
                         if (string.IsNullOrEmpty(userfirstchoice))
                         {
                             Console.WriteLine("you need to choose yes or no");
