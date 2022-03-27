@@ -39,13 +39,26 @@
                         Console.WriteLine("no");
                         Console.ReadLine();
                         var userfirstchoice = Console.ReadLine();//idk whats going on here
+                       
                         if (string.IsNullOrEmpty(userfirstchoice))
                         {
                             Console.WriteLine("you need to choose yes or no");
                             Console.ReadLine();
                             continue;
                         }
-                        
+
+                        if (userfirstchoice == "no")
+                        {
+                            Console.WriteLine("No problem we get it, but  since you arent going to help us you need to leave the shelter");
+                            Console.WriteLine($"{name} leaves the shelter but gets shot");
+                            continue;
+                        }
+
+                        if (userfirstchoice == "yes")
+                        {
+                            Console.WriteLine("Jeff: Thanks! We are happy to have a new member on our crew");
+                            Console.WriteLine("Jeff:From now on you will be a spy, try to get into the center of moscow and get some news, and if you can try to kill the president");
+                        }
                         
                         
                         
