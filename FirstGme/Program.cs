@@ -33,10 +33,34 @@
                         Console.ReadLine();
                         Console.WriteLine($"{name}: But why? Why are they attacking us? That doesnt make any sense!");
                         Console.ReadLine();
-                        Console.WriteLine(
-                            $"Jeff: We dont know yet, we are still finding more people to create a group agaisnt russia");
-                        break;
+                        Console.WriteLine($"Jeff: We dont know yet, we are still finding more people to create a group agaisnt russia");
+                        Console.WriteLine($"Jeff: We need to help to figure it out whats going on, can you help us?");//This part will be when the player needs to choose between 2 story lines
+                        Console.WriteLine("yes");
+                        Console.WriteLine("no");
+                        Console.ReadLine();
+                        var userfirstchoice = Console.Read();
+                        if (string.IsNullOrEmpty(userfirstchoice))
+                        {
+                            Console.WriteLine("you need to choose yes or no");
+                            Console.ReadLine();
+                            continue;
+                        }
                         
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        break;
+
+
+
+
+
                     case "Credits":
                         Console.WriteLine("Made by MrPedroGabriel123");
                         Console.WriteLine("MrAmos and Thalos helped my when I was stuck with any type of code");
