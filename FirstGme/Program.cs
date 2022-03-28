@@ -25,9 +25,13 @@ internal static class Game
             switch (userFirstChoice)
             {
                 case 1:
+                    Console.Clear();
                     Console.WriteLine("Choose one of the 3 options bellow");
+                    Console.ReadKey();
+                    Console.Clear();
                     break;
                 case 2:
+                    Console.Clear();
                     Console.WriteLine("Your game will start soon...");
                     Console.ReadKey();
 
@@ -40,8 +44,7 @@ internal static class Game
                     Console.WriteLine("Jeff: Russia is attacking us ");
 
                     Console.ReadKey();
-                    Console.WriteLine(
-                        $"{Name} But why? Why are they attacking us? That doesnt make any sense!");
+                    Console.WriteLine($"{Name} But why? Why are they attacking us? That doesnt make any sense!");
 
                     Console.ReadKey();
                     Console.WriteLine(
@@ -58,22 +61,30 @@ internal static class Game
                     {
                         case 1:
                             Console.WriteLine("Jeff: Thanks! We are happy to have a new member on our crew");
-                            Console.WriteLine(
-                                "Jeff:From now on you will be a spy, try to get into the center of moscow and get some news, and if you can try to kill the president");
+                            Console.WriteLine("Jeff:From now on you will be a spy, try to get into the center of moscow and get some news, and if you can try to kill the president");
+                            
+                            
+                            
+                            
+                           
                             break;
-                        case 2:
+                        case 2://ends part 1 if leave
                             Console.WriteLine(
                                 "No problem we get it, but  since you arent going to help us you need to leave the shelter");
                             Console.WriteLine($"{Name} leaves the shelter but gets shot");
                             break;
+                       
                     }
+                    
 
                     break;
 
                 case 3:
+                    Console.Clear();
                     Console.WriteLine("Made by MrPedroGabriel123");
-                    Console.WriteLine("MrAmos and Thalos helped my when I was stuck with any type of code");
+                    Console.WriteLine("MrAmos and Thalos helped me when I was stuck with any type of code");
                     Console.ReadKey();
+                    Console.Clear();
                     break;
                 case 4:
                     Environment.Exit(0);
